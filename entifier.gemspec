@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "entifier.gemspec",
     "lib/entifier.rb",
     "lib/entifier/extensions.rb",
     "lib/entifier/init.rb",
