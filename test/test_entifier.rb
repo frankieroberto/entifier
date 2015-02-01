@@ -312,7 +312,7 @@ class TestEntifier < Test::Unit::TestCase
   end
 
   should "extract 'Fourie du Prez'" do
-    assert_equal ["Fourie du Prez"], Entifier.extract("...looking forward to pitting his wits against experienced opposite number Fourie du Preez when the...")
+    assert_equal ["Fourie du Prez"], Entifier.extract("...looking forward to pitting his wits against experienced opposite number Fourie du Prez when the...")
   end
 
     
